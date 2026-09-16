@@ -1,0 +1,23 @@
+{
+  "name": "my-portfolio-api",
+  "version": "1.0.0",
+  "description": "Public API for the DevOps portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "api",
+    "portfolio",
+    "express"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
